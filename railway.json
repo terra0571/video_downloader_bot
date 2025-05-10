@@ -2,10 +2,9 @@
   "build": {
     "builder": "NIXPACKS",
     "config": {
-      "startCommand": "python bot.py"
+      "nixpacks": {
+        "providers": ["python"]
+      }
     }
-  },
-  "deploy": {
-    "startCommand": "python bot.py"
   }
 }
